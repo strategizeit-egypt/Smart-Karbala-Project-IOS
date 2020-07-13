@@ -1,0 +1,178 @@
+PODS:
+  - Alamofire (4.9.1)
+  - BEMCheckBox (1.4.1)
+  - CountryPickerView (3.1.0)
+  - Firebase/Analytics (6.21.0):
+    - Firebase/Core
+  - Firebase/Core (6.21.0):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (= 6.4.0)
+  - Firebase/CoreOnly (6.21.0):
+    - FirebaseCore (= 6.6.5)
+  - FirebaseAnalytics (6.4.0):
+    - FirebaseCore (~> 6.6)
+    - FirebaseInstallations (~> 1.1)
+    - GoogleAppMeasurement (= 6.4.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.0)
+    - GoogleUtilities/MethodSwizzler (~> 6.0)
+    - GoogleUtilities/Network (~> 6.0)
+    - "GoogleUtilities/NSData+zlib (~> 6.0)"
+    - nanopb (= 0.3.9011)
+  - FirebaseCore (6.6.5):
+    - FirebaseCoreDiagnostics (~> 1.2)
+    - FirebaseCoreDiagnosticsInterop (~> 1.2)
+    - GoogleUtilities/Environment (~> 6.5)
+    - GoogleUtilities/Logger (~> 6.5)
+  - FirebaseCoreDiagnostics (1.2.2):
+    - FirebaseCoreDiagnosticsInterop (~> 1.2)
+    - GoogleDataTransportCCTSupport (~> 2.0)
+    - GoogleUtilities/Environment (~> 6.5)
+    - GoogleUtilities/Logger (~> 6.5)
+    - nanopb (~> 0.3.901)
+  - FirebaseCoreDiagnosticsInterop (1.2.0)
+  - FirebaseInstallations (1.1.1):
+    - FirebaseCore (~> 6.6)
+    - GoogleUtilities/UserDefaults (~> 6.5)
+    - PromisesObjC (~> 1.2)
+  - GoogleAppMeasurement (6.4.0):
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.0)
+    - GoogleUtilities/MethodSwizzler (~> 6.0)
+    - GoogleUtilities/Network (~> 6.0)
+    - "GoogleUtilities/NSData+zlib (~> 6.0)"
+    - nanopb (= 0.3.9011)
+  - GoogleDataTransport (5.1.0)
+  - GoogleDataTransportCCTSupport (2.0.1):
+    - GoogleDataTransport (~> 5.1)
+    - nanopb (~> 0.3.901)
+  - GoogleMaps (3.8.0):
+    - GoogleMaps/Maps (= 3.8.0)
+  - GoogleMaps/Base (3.8.0)
+  - GoogleMaps/Maps (3.8.0):
+    - GoogleMaps/Base
+  - GooglePlaces (3.8.0):
+    - GoogleMaps/Base (= 3.8.0)
+  - GoogleUtilities/AppDelegateSwizzler (6.5.2):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (6.5.2)
+  - GoogleUtilities/Logger (6.5.2):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (6.5.2):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (6.5.2):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (6.5.2)"
+  - GoogleUtilities/Reachability (6.5.2):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (6.5.2):
+    - GoogleUtilities/Logger
+  - IQKeyboardManagerSwift (6.5.5)
+  - libPhoneNumber-iOS (0.9.15)
+  - nanopb (0.3.9011):
+    - nanopb/decode (= 0.3.9011)
+    - nanopb/encode (= 0.3.9011)
+  - nanopb/decode (0.3.9011)
+  - nanopb/encode (0.3.9011)
+  - NVActivityIndicatorView (4.8.0):
+    - NVActivityIndicatorView/Presenter (= 4.8.0)
+  - NVActivityIndicatorView/Presenter (4.8.0)
+  - PromisesObjC (1.2.8)
+  - PryntTrimmerView (4.0.0)
+  - SDWebImage (5.6.1):
+    - SDWebImage/Core (= 5.6.1)
+  - SDWebImage/Core (5.6.1)
+  - SkeletonView (1.8.6)
+  - SKPhotoBrowser (6.1.0)
+  - SteviaLayout (4.7.3)
+  - SwiftMessages (7.0.1):
+    - SwiftMessages/App (= 7.0.1)
+  - SwiftMessages/App (7.0.1)
+  - "UITextView+Placeholder (1.4.0)"
+  - YPImagePicker (4.2.0):
+    - PryntTrimmerView (~> 4.0.0)
+    - SteviaLayout (~> 4.7.3)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.9.1)
+  - BEMCheckBox
+  - CountryPickerView
+  - Firebase/Analytics
+  - GoogleMaps
+  - GooglePlaces
+  - IQKeyboardManagerSwift
+  - libPhoneNumber-iOS
+  - NVActivityIndicatorView
+  - SDWebImage
+  - SkeletonView
+  - SKPhotoBrowser
+  - SwiftMessages
+  - "UITextView+Placeholder"
+  - YPImagePicker
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - BEMCheckBox
+    - CountryPickerView
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseCore
+    - FirebaseCoreDiagnostics
+    - FirebaseCoreDiagnosticsInterop
+    - FirebaseInstallations
+    - GoogleAppMeasurement
+    - GoogleDataTransport
+    - GoogleDataTransportCCTSupport
+    - GoogleMaps
+    - GooglePlaces
+    - GoogleUtilities
+    - IQKeyboardManagerSwift
+    - libPhoneNumber-iOS
+    - nanopb
+    - NVActivityIndicatorView
+    - PromisesObjC
+    - PryntTrimmerView
+    - SDWebImage
+    - SkeletonView
+    - SKPhotoBrowser
+    - SteviaLayout
+    - SwiftMessages
+    - "UITextView+Placeholder"
+    - YPImagePicker
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  BEMCheckBox: 5ba6e37ade3d3657b36caecc35c8b75c6c2b1a4e
+  CountryPickerView: ab341e2253d5e1231ff679ec93441e413703cb9c
+  Firebase: f378c80340dd41c0ad0914af740c021eb282a04b
+  FirebaseAnalytics: a1a0b3327ceb5cd5b4bacffdb293f6c909aa087d
+  FirebaseCore: 9f495d3afacb7b558711e6218ebb14b1c51b5802
+  FirebaseCoreDiagnostics: e9b4cd8ba60dee0f2d13347332e4b7898cca5b61
+  FirebaseCoreDiagnosticsInterop: 296e2c5f5314500a850ad0b83e9e7c10b011a850
+  FirebaseInstallations: acb3216eb9784d3b1d2d2d635ff74fa892cc0c44
+  GoogleAppMeasurement: 6e68a94d0eaeb1d73ef6b0ed4f7334e29d63ae29
+  GoogleDataTransport: b29a21d813e906014ca16c00897827e40e4a24ab
+  GoogleDataTransportCCTSupport: 6f15a89b0ca35d6fa523e1f752ef818588885988
+  GoogleMaps: 7c8d66d70e4e8c300f43a7219d8fdaad7b325a9a
+  GooglePlaces: d5f70c3e9e427964fdeca1301a665d276ccd8754
+  GoogleUtilities: ad0f3b691c67909d03a3327cc205222ab8f42e0e
+  IQKeyboardManagerSwift: 0fb93310284665245591f50f7a5e38de615960b7
+  libPhoneNumber-iOS: 0a32a9525cf8744fe02c5206eb30d571e38f7d75
+  nanopb: 18003b5e52dab79db540fe93fe9579f399bd1ccd
+  NVActivityIndicatorView: d24b7ebcf80af5dcd994adb650e2b6c93379270f
+  PromisesObjC: c119f3cd559f50b7ae681fa59dc1acd19173b7e6
+  PryntTrimmerView: 67e67573ffd4c073f1308effa66aefd0cfa667a0
+  SDWebImage: 7edb9c3ea661e77a66661f7f044de8c1b55d1120
+  SkeletonView: 0bf463145522c0c551b76a829b397e2a15a16d46
+  SKPhotoBrowser: 343de95d89dc7913763c5dda243cc6e606e4a168
+  SteviaLayout: c2ecdcff57d44e38fd2f65e54ad52aeae28ca0c4
+  SwiftMessages: b577dc7043be8b299857ab35bb663dbff6483bd0
+  "UITextView+Placeholder": d7b0c400921f66523f3a85d74f774512e14f6502
+  YPImagePicker: accf310f9526641a84372c0ecf943547d9b1e52c
+
+PODFILE CHECKSUM: bb762a50807f6b13824d5deb550af073b5365145
+
+COCOAPODS: 1.9.1

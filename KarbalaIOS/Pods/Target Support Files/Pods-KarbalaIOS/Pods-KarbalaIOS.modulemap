@@ -1,0 +1,6 @@
+framework module Pods_KarbalaIOS {
+  umbrella header "Pods-KarbalaIOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,179 @@
+/* 
+  Localizable.strings
+  DrOnTime
+
+  Created by mac on 10/23/18.
+  Copyright © 2018 mac. All rights reserved.
+*/
+
+//Errors
+"Error" = "Error";
+
+//Globals
+"ok" = "OK";
+"cancel" = "Cancel";
+"Settings" = "Settings";
+"Alert" = "Alert";
+"msg_brought_to_you" = "Brought to you by UNDP";
+
+//Splash
+//"developed_by" = "Developed by Xapps";
+"retry" = "Retry";
+"exit" = "Exit";
+"developed_by" = "Citizens Application to interact with the holy governorate of Karbala";
+"splash_sentence" = "Citizens Application to interact with the holy governorate of Karbala";
+
+//Login
+"name_text_field_placeholder" = "Your Name";
+"phone_text_field_placeholder" = "Ex. 51 XXX XXXX";
+"sign_in_label" = "Create new account";
+"sign_in_desc" = "Add your mobile number and get verification code.";
+"terms_label" = "I’ve read and accept the Terms and conditions";
+"Terms and conditions" = "Terms and conditions";
+"name_is_empty" = "Enter your Name";
+"phone_is_empty" = "Enter your phone number";
+"phone_is_not_valid" = "Phone number is not valid";
+"sign_in_label" = "Sign In";
+"sign_in_desc %@" = "Welcome %@, sign in with your account";
+"don't_have_account" = "If you don't have account yet please sign up";
+"signup_button" = "Sign Up";
+
+//Sign up
+"welcome_header" = "Welcome to Smart Karbala";
+"welcome_body" = "If you are Karbala citizen select citizen,if not select visitor";
+"Citizen" = "Citizen";
+"Visitor" = "Visitor";
+"full_name" = "Full name";
+"email_address" = "Email address";
+"birth_date" = "Birthdate - Month / Day / Year";
+"city" = "City";
+"district" = "District";
+"area" = "Subdistrict";
+"neighborhood" = "Neighborhood";
+"sign_up_as_%@" = "Sign in as a %@";
+"required_fields_hint" = "All fields are mandatory, fill all of them";
+"gender" = "Gender:";
+"male" = "Male";
+"female" = "Female";
+"Country" = "Country";
+
+//Registeration Done Popup
+"msg_user_number %@" = "User number # %@";
+"msg_successfull_rigster" = "Successful register";
+
+//Terms
+"Terms_screen_title" = "Terms & Policy";
+
+//Verfication
+"enter_verfication" = "Enter a verification code";
+"verfication_desc" = "A text message with a verification code was just sent to your mobile";
+"send_verfication_again" = "Didn’t received ! Send again";
+"verfication_timer %@" = "You will get the verification code within %@ sec";
+"Send again" = "Send again";
+"verfication_code_empty" = "Enter verfication code";
+
+//Tabs
+"title_new_complaint" = "Home";
+"title_complaints" = "My complaints";
+"More" = "More";
+
+//More
+"About us" = "About us";
+"Contact us" = "Contact us";
+"Terms & policy" = "Terms & policy";
+"Change languge" = "Change languge";
+"error_user_name_not_chnaged" = "User name not changed";
+"msg_user_name_changed" = "User name changed successfully";
+"Sign out" = "Sign out";
+"logout_confirmation" = "Are you sure you want to logout?";
+"Confirm" = "Confirm";
+
+
+// Contact US
+"message_title_placeholder" = "Message subject";
+"message_body_placeholder" = "Message Details - Click here to edit the text";
+"send_button" = "Send";
+"contact_by" = "Contact by";
+"hot_line" = "HotLine";
+"Whatsapp" = "Whatsapp";
+"Messenger" = "Twitter";
+"E-Mail" = "E-Mail";
+"message_title_is_empty" = "ِEnter message subject";
+"message_body_is_empty" = "Enter message description";
+"contact_us_message_sent_successfuly" = "Your message sent successfuly";
+"install_whatsapp" = "Whatsapp is not installed on this device. Please install Whatsapp and try again.";
+"No SIM Inserted" = "No SIM Inserted";
+"website" = "Website";
+
+//Language
+"Change" = "Change";
+
+//My Reports
+"Search for report" = "Search for complaint";
+"Report details" = "complaint details";
+"no_Reports" = "No complaints";
+//Report Details
+"report_images_header" = "complaint picturs";
+"report_voice_header" = "complaint voice";
+"Comment" = "Comment";
+//MAP
+"add_report_button" = "Add your complaint";
+"add_report_hint" = "Select your location first then hit this green button";
+"search_placholder" = "Search for location";
+"location_is_empty" = "Choose location first";
+"back" = "Back";
+"location_is_off" = "Please enable location services for this app.";
+"location_is_denied" = "location service is ";
+
+//Add Report
+"complete_report" = "Complete your complaint";
+"after_choose_location" = "After choose your location complete the complaint";
+"report_type" = "complaint category";
+"Township" = "Township";
+"report_details_hint" = "complaint details";
+"error_number_of_photos" = "Can't add more than 5 photos";
+
+"stop_recording_message" = "Stop recording before send complaint";
+"report_details_error_message" = "Enter complaint description";
+"choose_report_image_error_message" = "Attach one image at least to your complaint";
+"report_type_error_message" = "Enter complaint type";
+"sure_send_report" = "Are you sure you want to send the complaint?";
+"record_audio_denied" = "Allow us to access your microphone to be able to record voice";
+"complaint_details_audio_error_message" = "Enter complaint description or record voice";
+
+//Township
+"Select" = "Select";
+"no_districts" = "No districts available";
+"choose_district_error_message" = "Choose district";
+"Choose_district" = "Choose the district";
+"Districts" = "Districts";
+
+//Report Type
+"Choose_report_type" = "Choose complaint type";
+"choose_report_type_error_message" = "Choose complaint type";
+"no_report_types" = "No complaint types available";
+
+//Confirmation
+"Successfully" = "Successfully";
+"msg_send_report_successfully" = "Thanks for add a new complaint! \nNow you can check complaint status by hitting the below green button.";
+"act_home_screen" = "Home screen";
+"msg_need_back" = "Need back to Home screen";
+
+// Server Errors
+"Server Error" = "Something went wrong. Please try again later";
+"Network Error" = "Check your internet connection and try again";
+"No Data Found" = "No data was found";
+"not_join_in_group_error" = "You are not join in this group";
+"This_Phone_Registerd_Before" = "This phone is registered before";
+"Result_invalid_password" =  "Invalid password";
+"Result_Invalid_Email" = "Invalid email";
+"Result_Invalide_code" = "Invalid verfication code";
+"Result_invalid_user_name_or_password" = "Invalid username or password";
+"Result_invalid_access_token_relogin" = "Your session has expired, please relogin";
+"Plese_complete_registeration" = "Please, complete register data";
+"Invalide_PhoneNumber" = "This phone is not valid";
+"Result_Invalid_Parametrs" = "Invalid parameters";
+"User_not_Register_Yet" = "User not registered before";
+"Invalide_PhoneNumber_Or_Email" = "Invalid phone number or email";
+"Employee_Is_Disabled_From_Admin" = "User is disabled from admin";
+"Student_Not_Found" = "User not found";

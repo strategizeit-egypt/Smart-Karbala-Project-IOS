@@ -1,0 +1,185 @@
+/* 
+  Localizable.strings
+  DrOnTime
+
+  Created by mac on 10/23/18.
+  Copyright © 2018 mac. All rights reserved.
+*/
+
+//Errors
+"Error" = "خطأ";
+
+//Globals
+"ok" = "موافق";
+"cancel" = "إلغاء";
+"Settings" = "الإعدادات";
+"Alert" = "تنبية";
+"msg_brought_to_you" = "Brought to you by UNDP";
+
+//Splash
+//"developed_by" = "تم التطوير بواسطة XApps";
+"retry" = "إعادة المحاولة";
+"exit" = "خروج";
+"developed_by" = "تطبيق تفاعل االمواطنين مع محافظة كربلاء المقدسة";
+"splash_sentence" = "تطبيق خدمة المواطنين المقدم من محافظة كربلاء المقدسة";
+
+//Login
+"name_text_field_placeholder" = "الاسم بالكامل";
+"phone_text_field_placeholder" = "Ex. 51 XXX XXXX";
+"sign_in_label" = "أنشاء حساب جديد";
+"sign_in_desc" = "أضف رقم هاتفك المحمول واحصل على رمز التحقق.";
+"terms_label" = "لقد قرأت ووافقت على الشروط والأحكام";
+"Terms and conditions" = "الشروط والأحكام";
+"name_is_empty" = "أدخل أسمك";
+"phone_is_empty" = "أدخل رقم الجوال";
+"phone_is_not_valid" = "رقم الجوال غير صحيح";
+
+
+"sign_in_label" = "تسجيل الدخول";
+"sign_in_desc %@" = "مرحباً %@ ، قم بتسجيل الدخول باستخدام حسابك";
+"don't_have_account" = "إذا لم يكن لديك حساب ، يرجى الاشتراك";
+"signup_button" = "حساب جديد";
+
+
+//Sign up
+"welcome_header" = "مرحبا بك فى كربلاء الذكية";
+"welcome_body" = "إذا كنت من مواطني كربلاء فاختر مواطنا ، إن لم يكن اختر زائر";
+"Citizen" = "مواطن";
+"Visitor" = "زائر";
+"full_name" = "الإسم بالكامل";
+"email_address" = "البريد الإلكتروني";
+"birth_date" = "تاريخ الميلاد - شهر / يوم / سنة";
+"city" = "المنطقة";
+"district" = "القضاء";
+"area" = "الناحية";
+"neighborhood" = "الحي";
+"sign_up_as_%@" = "التسجيل ك%@";
+"required_fields_hint" = "كل الحقول مطلوبة، آملا كل الحقول";
+"gender" = "النوع:";
+"male" = "ذكر";
+"female" = "أنثى";
+"Country" = "الدولة";
+
+//Registeration Done Popup
+"msg_user_number %@" = "انت المستخدم رقم # %@";
+"msg_successfull_rigster" = "تم التسجيل";
+
+
+
+//Terms
+"Terms_screen_title" = "الشروط و الأحكام";
+
+//Verfication
+"enter_verfication" = "أدخل كود التحقيق";
+"verfication_desc" = "تم إرسال كود التحقيق في رسالة نصية إلى رقم جوالك";
+"send_verfication_again" = "لم استلم بعد! أرسل مرة أخرى";
+"verfication_timer %@" = "سيصلك كود التحقيق خلال %@ ثانية";
+"Send again" = "أرسل مرة أخرى";
+"verfication_code_empty" = "أدخل كود التحقيق";
+
+//Tabs
+"title_new_complaint" = "الرئيسية";
+"title_complaints" = "شكاوي";
+"More" = "المزيد";
+
+//More
+"About us" = "عن كربلاء";
+"Contact us" = "اتصل بنا";
+"Terms & policy" = "الشروط و السياسات";
+"Change languge" = "تغيير اللغة";
+"error_user_name_not_chnaged" = "لم يتم تغيير الإسم<";
+"msg_user_name_changed" = "تم تغيير الإسم بنجاح";
+"Sign out" = "تسجيل الخروج";
+"logout_confirmation" = "هل تريد تسجيل الخروج";
+"Confirm" = "تاكيد";
+
+// Contact US
+"message_title_placeholder" = "عنوان الرسالة";
+"message_body_placeholder" = "تفاصيل الرسالة - انقر هنا لتحرير النص";
+"send_button" = "إرسال";
+"contact_by" = "تواصل معنا";
+"hot_line" = "اتصل بنا الان";
+"Whatsapp" = "واتساب";
+"Messenger" = "تويتر";
+"E-Mail" = "البريد الالكتروني";
+"message_title_is_empty" = "آدخل عنوان الرسالة";
+"message_body_is_empty" = "آدخل تفاصيل الرسالة";
+"contact_us_message_sent_successfuly"= "تم إرسال رسالتك بنجاح";
+"install_whatsapp" = "تطبيق الواتس آب غير مثبت على هذا الجهاز. الرجاء تثبيت واتساب والمحاولة مرة أخرى ";
+"No SIM Inserted" = "لا توجد شريحة جوال";
+"website" = "الموقع الإلكتروني";
+
+//Language
+"Change" = "تغيير";
+
+//My Reports
+"Search for report" = "البحث عن شكوى";
+"Report details" = "تفاصيل الشكوى";
+"no_Reports"= "لا توجد شكاوي";
+//Report Details
+"report_images_header" = "صور الشكوى";
+"report_voice_header" = "الرسالة الصوتية للشكوى";
+"Comment" = "التعليق";
+//MAP
+"add_report_button" = "أضف شكوى";
+"add_report_hint" = "اختر موقعك أولاً ثم اضغط على أضف شكوى";
+"search_placholder" = "البحث عن مكان";
+"location_is_empty" = "قم باختيار الموقع أولاً";
+"location_is_off" = "يرجى تفعيل خدمات الموقع لهذا التطبيق.";
+"location_is_denied" = "السماح للتطبيق بالوصول إلى موقعك الحالي";
+"back" = "الخلف";
+
+//Add Report
+"complete_report" = "أكمل الشكوى";
+"after_choose_location" = "أختر الموقع أولاً ثم اضغط على أضف شكوى";
+"report_type" = "نوع الشكوى";
+"Township" = "القضاء";
+"report_details_hint" = "تفاصيل الشكوى";
+"error_number_of_photos" = "لا يمكن إضافة أكثر من 5 صور";
+
+
+"stop_recording_message" = "قم بإيقاف المُسجل قبل إرسال الشكوى";
+"report_details_error_message" = "أدخل وصف الشكوى";
+"choose_report_image_error_message" = "قم بإضافة صورة واحدة على الاقل إلي الشكوى";
+"report_type_error_message" = "أدخل نوع الشكوى";
+"sure_send_report" = "هل متأكد أنك تريد إرسال الشكوى؟";
+
+"record_audio_denied" = "اسمح لنا بالوصول إلى الميكروفون حتى تتمكن من تسجيل الصوت";
+
+"complaint_details_audio_error_message" = "أدخل وصف الشكوى أو قم بتسجيل صوتي للشكوى";
+
+//Township
+"Select" = "اختر";
+"choose_district_error_message" = "اختر القضاء";
+"no_districts"= "لا توجد بلديات متاحة";
+"Choose_district" = "اختر القضاء";
+"Districts" = "آقضية";
+//Report Type
+"Choose_report_type" = "اختر نوع الشكوى";
+"choose_report_type_error_message" = "اختر نوع الشكوى";
+"no_report_types" = "لا توجد انواع شكاوي";
+
+//Confirmation
+"Successfully" = "تم";
+"msg_send_report_successfully" = "شكراً للإضافتك شكوى جديد, الان يمكنك مراجعة حالة الشكوى بالضغط على الزرار الأخضر الموجود بالاسفل.";
+"act_home_screen" = "الصفحة الرئيسية";
+"msg_need_back" = "الرجوع إلي الصفحة الرئيسية";
+
+// Server Errors
+"Server Error" = "حدث خطأ ما في،من فضلك حاول مرة اخري لاحقا";
+"Network Error" = "تحقق من اتصال الانترنت لديك و حاول مجدداً";
+"No Data Found" = "لا توجد بيانات";
+"not_join_in_group_error" = "انت غير مشترك في هذا الجروب";
+"This_Phone_Registerd_Before" = "هذا الجوال غير موجود";
+"Result_invalid_password" = "كلمة المرور غير صحيح";
+"Result_Invalid_Email" = "البريد الالكتروني غير صحيح";
+"Result_Invalide_code" = "كود التفعيل غير صحيح";
+"Result_invalid_user_name_or_password" = "اسم المستخدم او كلمة المرور غير صحيح";
+"Result_invalid_access_token_relogin" = "الجلسه الخاصه بك انتهت ، من فضلك سجل دخول مره اخري";
+"Plese_complete_registeration" = "من فضلك اكمل بيانات التسجيل";
+"Invalide_PhoneNumber" =  "رقم الجوال غير صحيح";
+"Result_Invalid_Parametrs" = "كلمة المرور غير صحيحة";
+"User_not_Register_Yet" = "المستخدم غير موجود";
+"Invalide_PhoneNumber_Or_Email" = "رقم الجوال او البريد الالكتروني غير صحيح";
+"Employee_Is_Disabled_From_Admin" = "المستخدم تم حجبه من الادمن";
+"Student_Not_Found" = "المستخدم غير موجود";
