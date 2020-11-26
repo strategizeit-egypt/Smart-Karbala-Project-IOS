@@ -10,6 +10,7 @@ import UIKit
 import GoogleMaps
 import CoreLocation
 import GooglePlaces
+import MapKit
 class MapVC: UIViewController {
     
     @IBOutlet weak var addReportButton: UIButton!
@@ -24,6 +25,8 @@ class MapVC: UIViewController {
     
     private let karbalaLocation = CLLocation(latitude: 32.61603, longitude: 44.02488)
     
+    let polygon = MKPolygon(coordinates: &AppConstants.shared.locations, count: AppConstants.shared.locations.count)
+    var polygonRenderer:MKPolygonRenderer?
     
     var isBackFromConfirmation = false
     var isComeFromAutoComplete:Bool = false
@@ -31,6 +34,17 @@ class MapVC: UIViewController {
         super.viewDidLoad()
         setupUI()
         changeTabBarColors()
+        polygonRenderer = MKPolygonRenderer(polygon: polygon)
+        
+        
+//        let path = GMSMutablePath()
+//        for location in AppConstants.shared.locations{
+//            path.add(location)
+//        }
+//            let polyline = GMSPolyline(path: path)
+//            polyline.strokeColor = .blue
+//            polyline.strokeWidth = 5.0
+//            polyline.map = mapView
     }
     
     
@@ -83,9 +97,21 @@ class MapVC: UIViewController {
     @IBAction func addReport(_ sender: UIButton) {
         if userLocation == nil{
             self.showCustomAlert(bodyMessage: "location_is_empty".localized)
+        }else if checkIfLocationInKarbala() == false{
+            self.showCustomAlert(bodyMessage: "location_not_in_karbala".localized)
         }else{
             self.performSegue(withIdentifier: AppConstants.AppSegues.fromMapToTownships.rawValue, sender: userLocation)
         }
+    }
+    
+    
+    func checkIfLocationInKarbala()->Bool{
+        let mapPoint: MKMapPoint = MKMapPoint(CLLocationCoordinate2D(latitude: userLocation!.coordinate.latitude, longitude: userLocation!.coordinate.longitude))
+        let polygonViewPoint: CGPoint = polygonRenderer!.point(for: mapPoint)
+        if polygonRenderer!.path.contains(polygonViewPoint) {
+           return true
+        }
+        return false
     }
     
     @IBAction func selectCurrentLocation(_ sender: UIButton) {
@@ -217,7 +243,6 @@ extension MapVC:GMSMapViewDelegate{
             let coordinate = mapView.projection.coordinate(for: point)
             self.userLocation = CLLocation(latitude: coordinate.latitude, longitude: coordinate.longitude)
             //mapView.animate(to: position)
-            
         }
         isComeFromAutoComplete = false
     }

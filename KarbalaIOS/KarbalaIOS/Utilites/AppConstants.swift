@@ -7,7 +7,7 @@
 //
 
 import Foundation
-
+import CoreLocation
 class AppConstants{
     
     static let shared = AppConstants()
@@ -23,7 +23,8 @@ class AppConstants{
     static let reportCreationDate = "dd MMM yyyy"
     static let birthDateFormate = "yyyy-MM-dd"
     static let commentDate = "dd MMM yyyy h:mm a"
-    
+    var locations:[CLLocationCoordinate2D] = []
+
     private init(){
         
     }
@@ -82,7 +83,26 @@ class AppConstants{
       
     }
     
-    
+    func readPointsFromFile(){
+        let path = Bundle.main.path(forResource: "KarbalaPoints", ofType: "txt") // file path for file "data.txt"
+        do{
+            let string = try String(contentsOfFile: path!, encoding: .utf8)
+            let locationsArrayInStrings = string.components(separatedBy: .newlines).filter {
+                return $0.isStringEmpty() == false
+            }
+            
+            var locations:[CLLocationCoordinate2D] = []
+            for locationString in locationsArrayInStrings{
+                let location = locationString.components(separatedBy: ",")
+                let doubles = location.compactMap(Double.init)
+                let coordinate = CLLocationCoordinate2D(latitude: doubles[0], longitude:  doubles[1] )
+                locations.append(coordinate)
+            }
+            self.locations = locations
+        }catch{
+            print(error.localizedDescription)
+        }
+    }
     
     
 }

@@ -23,7 +23,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         googleMapsConfiguration()
         FirebaseApp.configure()
         NavigationBarConfiguration()
-        
+        AppConstants.shared.readPointsFromFile()
         if AppConstants.shared.isLanguageSelected() == false{
             L102Language.setAppleLAnguageTo(lang: "ar")
             UIView.appearance().semanticContentAttribute = .forceRightToLeft

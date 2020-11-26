@@ -71,7 +71,4 @@ extension LoginVC:CountryPickerViewDelegate,CountryPickerViewDataSource{
     func countryPickerView(_ countryPickerView: CountryPickerView, didSelectCountry country: Country) {
         self.countryCodeTextField.text = country.phoneCode
     }
-    
-    
-    
 }

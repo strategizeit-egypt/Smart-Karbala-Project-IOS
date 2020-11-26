@@ -17,7 +17,6 @@ import UIKit
 
 class SplashVC: UNDPViewController {
     
-    
     @IBOutlet weak var xappsLabel: UILabel!
     @IBOutlet weak var arabicButton: UIButton!
     @IBOutlet weak var englishButton: UIButton!

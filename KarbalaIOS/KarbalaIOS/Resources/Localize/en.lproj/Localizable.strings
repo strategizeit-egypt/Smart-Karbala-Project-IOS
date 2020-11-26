@@ -124,6 +124,7 @@
 "back" = "Back";
 "location_is_off" = "Please enable location services for this app.";
 "location_is_denied" = "location service is ";
+"location_not_in_karbala" = "You are outside the boundaries of the area of Karbala";
 
 //Add Report
 "complete_report" = "Complete your complaint";

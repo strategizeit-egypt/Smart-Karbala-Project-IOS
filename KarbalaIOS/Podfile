@@ -21,6 +21,6 @@ target 'KarbalaIOS' do
   pod 'NVActivityIndicatorView'
   pod "SkeletonView"
   pod 'CountryPickerView'
-pod 'Firebase/Analytics'
+  pod 'Firebase/Analytics'
 
 end

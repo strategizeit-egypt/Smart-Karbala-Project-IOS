@@ -190,12 +190,6 @@ extension AddReportVC{
         cameraConfiguration.shouldSaveNewPicturesToAlbum = true
         cameraConfiguration.screens = [.library,.photo]
         
-//        libraryConfiguration = YPImagePickerConfiguration()
-//        libraryConfiguration.onlySquareImagesFromCamera = false
-//        libraryConfiguration.usesFrontCamera = false
-//        libraryConfiguration.showsPhotoFilters = true
-//        libraryConfiguration.shouldSaveNewPicturesToAlbum = true
-//        libraryConfiguration.screens = [.library]
     }
     
     @objc func uploadImageTabbed(){

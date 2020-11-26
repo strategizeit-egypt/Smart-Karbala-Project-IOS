@@ -32,6 +32,7 @@
 		04587993245EE9BC005611D0 /* CitizenTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04587988245EE9BB005611D0 /* CitizenTypes.swift */; };
 		04587994245EE9BC005611D0 /* Countries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04587989245EE9BC005611D0 /* Countries.swift */; };
 		04587995245EE9BC005611D0 /* ReportStatuses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0458798A245EE9BC005611D0 /* ReportStatuses.swift */; };
+		0470E42D25507384004AA84B /* KarbalaPoints.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0470E42C25507384004AA84B /* KarbalaPoints.txt */; };
 		04B12144242A184300092750 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B12143242A184300092750 /* AppDelegate.swift */; };
 		04B121EB242A18F900092750 /* ApiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B12158242A18EC00092750 /* ApiError.swift */; };
 		04B121EC242A18F900092750 /* URLRequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B12159242A18EC00092750 /* URLRequestBuilder.swift */; };
@@ -169,6 +170,7 @@
 		04587988245EE9BB005611D0 /* CitizenTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CitizenTypes.swift; sourceTree = "<group>"; };
 		04587989245EE9BC005611D0 /* Countries.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Countries.swift; sourceTree = "<group>"; };
 		0458798A245EE9BC005611D0 /* ReportStatuses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReportStatuses.swift; sourceTree = "<group>"; };
+		0470E42C25507384004AA84B /* KarbalaPoints.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = KarbalaPoints.txt; sourceTree = "<group>"; };
 		04B12140242A184300092750 /* Smart Karbala.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Smart Karbala.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B12143242A184300092750 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04B12151242A184400092750 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -348,6 +350,7 @@
 		04B12142242A184300092750 /* KarbalaIOS */ = {
 			isa = PBXGroup;
 			children = (
+				0470E42C25507384004AA84B /* KarbalaPoints.txt */,
 				04144EC224852D5C006EF386 /* GoogleService-Info.plist */,
 				04395D832476B28800C0D282 /* Smart Karbala.entitlements */,
 				04B12143242A184300092750 /* AppDelegate.swift */,
@@ -552,12 +555,12 @@
 				04B121AF242A18F100092750 /* MapVC.swift */,
 				04B1218C242A18F100092750 /* Districts */,
 				043CA2462475444E00B88031 /* Subdistricts */,
-				04B12195242A18F100092750 /* My Reports */,
-				04B1219C242A18F100092750 /* Report Details */,
 				04B121B0242A18F100092750 /* Add Report */,
 				043B54BD2474178C008A6A4E /* Report Category */,
 				04B121B7242A18F100092750 /* Report Type */,
 				04B121A7242A18F100092750 /* ConfirmationVC.swift */,
+				04B12195242A18F100092750 /* My Reports */,
+				04B1219C242A18F100092750 /* Report Details */,
 				04B121A1242A18F100092750 /* MoreVC */,
 				04B121BC242A18F100092750 /* Contact Us */,
 				04B121A6242A18F100092750 /* AboutUsVC.swift */,
@@ -762,8 +765,8 @@
 				04B12257242A3CB200092750 /* SignUpVC.swift */,
 				040FCC8024321982002B9B21 /* SignUpVC + TextFields.swift */,
 				044C314124618F28000ABE85 /* SignUpVC + Segues.swift */,
-				0458797E245ED529005611D0 /* SignupVC + PresenterDelegate.swift */,
 				0458797C245ED46D005611D0 /* SignupVCPresenter.swift */,
+				0458797E245ED529005611D0 /* SignupVC + PresenterDelegate.swift */,
 			);
 			path = "Sign UP";
 			sourceTree = "<group>";
@@ -848,6 +851,7 @@
 				04B1220B242A18F900092750 /* ReportCell.xib in Resources */,
 				04B12205242A18F900092750 /* RadioCell.xib in Resources */,
 				04B12208242A18F900092750 /* MarginSectionCell.xib in Resources */,
+				0470E42D25507384004AA84B /* KarbalaPoints.txt in Resources */,
 				04B12248242A18F900092750 /* din-next-lt-w23-bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1185,9 +1189,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "KarbalaIOS/Smart Karbala.entitlements";
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 8;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 11;
 				DEVELOPMENT_TEAM = AH3KR4754Q;
 				INFOPLIST_FILE = KarbalaIOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
@@ -1197,7 +1201,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.xapps.karbalaIos;
 				PRODUCT_NAME = "Smart Karbala";
-				PROVISIONING_PROFILE_SPECIFIER = karbalaAddHocProvisioningProfile;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -1209,9 +1213,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "KarbalaIOS/Smart Karbala.entitlements";
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 8;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 11;
 				DEVELOPMENT_TEAM = AH3KR4754Q;
 				INFOPLIST_FILE = KarbalaIOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
@@ -1221,7 +1225,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.xapps.karbalaIos;
 				PRODUCT_NAME = "Smart Karbala";
-				PROVISIONING_PROFILE_SPECIFIER = karbalaAddHocProvisioningProfile;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};

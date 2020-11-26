@@ -17,7 +17,6 @@ extension LoginVC:LoginVCPresenterDelegate{
         
     }
     
-    
     func showLoader() {
         self.showLoaderIndictor()
     }

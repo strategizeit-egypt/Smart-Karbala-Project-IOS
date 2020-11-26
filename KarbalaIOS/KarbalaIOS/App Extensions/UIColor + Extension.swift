@@ -32,7 +32,6 @@ extension UIColor{
     }
     
     
-    
     static func colorFromHexString (_ hex:String) -> UIColor {
         var cString:String = hex.trimmingCharacters(in: .whitespacesAndNewlines).uppercased()
         

@@ -128,6 +128,7 @@
 "location_is_off" = "يرجى تفعيل خدمات الموقع لهذا التطبيق.";
 "location_is_denied" = "السماح للتطبيق بالوصول إلى موقعك الحالي";
 "back" = "الخلف";
+"location_not_in_karbala" = "أنت خارج حدود منطقة كربلاء";
 
 //Add Report
 "complete_report" = "أكمل الشكوى";
